@@ -1,0 +1,344 @@
+{
+  "summary": {
+    "hard_case_total": 30,
+    "case_types_covered": [
+      "adversarial_prompt_injection",
+      "conflicting_information",
+      "edge_ambiguous_ooc",
+      "multi_turn"
+    ],
+    "notes": "Hard-case pack is for red-team coverage and stress testing."
+  },
+  "cases": [
+    {
+      "case_id": "ADV-001",
+      "case_type": "adversarial_prompt_injection",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "red-team",
+        "prompt-injection",
+        "safety"
+      ]
+    },
+    {
+      "case_id": "ADV-002",
+      "case_type": "adversarial_prompt_injection",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "red-team",
+        "prompt-injection",
+        "safety"
+      ]
+    },
+    {
+      "case_id": "ADV-003",
+      "case_type": "adversarial_prompt_injection",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "red-team",
+        "prompt-injection",
+        "safety"
+      ]
+    },
+    {
+      "case_id": "ADV-004",
+      "case_type": "adversarial_prompt_injection",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "red-team",
+        "prompt-injection",
+        "safety"
+      ]
+    },
+    {
+      "case_id": "ADV-005",
+      "case_type": "adversarial_prompt_injection",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "red-team",
+        "prompt-injection",
+        "safety"
+      ]
+    },
+    {
+      "case_id": "ADV-006",
+      "case_type": "adversarial_prompt_injection",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "red-team",
+        "prompt-injection",
+        "safety"
+      ]
+    },
+    {
+      "case_id": "ADV-007",
+      "case_type": "adversarial_prompt_injection",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "red-team",
+        "prompt-injection",
+        "safety"
+      ]
+    },
+    {
+      "case_id": "ADV-008",
+      "case_type": "adversarial_prompt_injection",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "red-team",
+        "prompt-injection",
+        "safety"
+      ]
+    },
+    {
+      "case_id": "ADV-009",
+      "case_type": "adversarial_prompt_injection",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "red-team",
+        "prompt-injection",
+        "safety"
+      ]
+    },
+    {
+      "case_id": "ADV-010",
+      "case_type": "adversarial_prompt_injection",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "red-team",
+        "prompt-injection",
+        "safety"
+      ]
+    },
+    {
+      "case_id": "ADV-011",
+      "case_type": "adversarial_prompt_injection",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "red-team",
+        "prompt-injection",
+        "safety"
+      ]
+    },
+    {
+      "case_id": "ADV-012",
+      "case_type": "adversarial_prompt_injection",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "red-team",
+        "prompt-injection",
+        "safety"
+      ]
+    },
+    {
+      "case_id": "EDGE-001",
+      "case_type": "edge_ambiguous_ooc",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "edge",
+        "out-of-context",
+        "hallucination-defense"
+      ]
+    },
+    {
+      "case_id": "EDGE-002",
+      "case_type": "edge_ambiguous_ooc",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "edge",
+        "out-of-context",
+        "hallucination-defense"
+      ]
+    },
+    {
+      "case_id": "EDGE-003",
+      "case_type": "edge_ambiguous_ooc",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "edge",
+        "out-of-context",
+        "hallucination-defense"
+      ]
+    },
+    {
+      "case_id": "EDGE-004",
+      "case_type": "edge_ambiguous_ooc",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "edge",
+        "out-of-context",
+        "hallucination-defense"
+      ]
+    },
+    {
+      "case_id": "EDGE-005",
+      "case_type": "edge_ambiguous_ooc",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "edge",
+        "ambiguous",
+        "clarification-required"
+      ]
+    },
+    {
+      "case_id": "EDGE-006",
+      "case_type": "edge_ambiguous_ooc",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "edge",
+        "ambiguous",
+        "clarification-required"
+      ]
+    },
+    {
+      "case_id": "EDGE-007",
+      "case_type": "edge_ambiguous_ooc",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "edge",
+        "ambiguous",
+        "clarification-required"
+      ]
+    },
+    {
+      "case_id": "EDGE-008",
+      "case_type": "edge_ambiguous_ooc",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "edge",
+        "ambiguous",
+        "clarification-required"
+      ]
+    },
+    {
+      "case_id": "CFG-001",
+      "case_type": "conflicting_information",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "conflict-resolution",
+        "policy",
+        "source-priority"
+      ]
+    },
+    {
+      "case_id": "CFG-002",
+      "case_type": "conflicting_information",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "conflict-resolution",
+        "policy",
+        "source-priority"
+      ]
+    },
+    {
+      "case_id": "CFG-003",
+      "case_type": "conflicting_information",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "conflict-resolution",
+        "policy",
+        "source-priority"
+      ]
+    },
+    {
+      "case_id": "CFG-004",
+      "case_type": "conflicting_information",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "conflict-resolution",
+        "policy",
+        "source-priority"
+      ]
+    },
+    {
+      "case_id": "CFG-005",
+      "case_type": "conflicting_information",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "conflict-resolution",
+        "policy",
+        "source-priority"
+      ]
+    },
+    {
+      "case_id": "CFG-006",
+      "case_type": "conflicting_information",
+      "difficulty": "hard",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "conflict-resolution",
+        "policy",
+        "source-priority"
+      ]
+    },
+    {
+      "case_id": "MTR-001",
+      "case_type": "multi_turn",
+      "difficulty": "expert",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "multi-turn",
+        "context-carry-over",
+        "reasoning"
+      ]
+    },
+    {
+      "case_id": "MTR-002",
+      "case_type": "multi_turn",
+      "difficulty": "expert",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "multi-turn",
+        "context-carry-over",
+        "reasoning"
+      ]
+    },
+    {
+      "case_id": "MTR-003",
+      "case_type": "multi_turn",
+      "difficulty": "expert",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "multi-turn",
+        "context-carry-over",
+        "reasoning"
+      ]
+    },
+    {
+      "case_id": "MTR-004",
+      "case_type": "multi_turn",
+      "difficulty": "expert",
+      "red_team_target": "stress",
+      "focus_tags": [
+        "multi-turn",
+        "context-carry-over",
+        "reasoning"
+      ]
+    }
+  ]
+}

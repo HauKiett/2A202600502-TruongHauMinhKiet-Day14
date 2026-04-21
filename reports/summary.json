@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "version": "Agent_V2_Optimized",
+    "total": 60,
+    "timestamp": "2026-04-21 14:40:49",
+    "elapsed_s": 11.31
+  },
+  "metrics": {
+    "avg_score": 4.1,
+    "hit_rate": 0.8667,
+    "hit_rate@3": 0.8667,
+    "agreement_rate": 0.95,
+    "p95_latency_s": 0.0646,
+    "avg_latency_s": 0.0568,
+    "total_cost_usd": 0.077977,
+    "total_tokens_in": 42294,
+    "total_tokens_out": 183,
+    "total": 60,
+    "pass_count": 53,
+    "fail_count": 7,
+    "error_count": 0,
+    "cohen_kappa": 0.5161
+  },
+  "regression": {
+    "v1_metrics": {
+      "avg_score": 4.1,
+      "hit_rate": 0.7667,
+      "hit_rate@3": 0.7667,
+      "agreement_rate": 0.95,
+      "p95_latency_s": 0.0653,
+      "avg_latency_s": 0.0566,
+      "total_cost_usd": 0.075694,
+      "total_tokens_in": 40914,
+      "total_tokens_out": 183,
+      "total": 60,
+      "pass_count": 48,
+      "fail_count": 12,
+      "error_count": 0
+    },
+    "v2_metrics": {
+      "avg_score": 4.1,
+      "hit_rate": 0.8667,
+      "hit_rate@3": 0.8667,
+      "agreement_rate": 0.95,
+      "p95_latency_s": 0.0646,
+      "avg_latency_s": 0.0568,
+      "total_cost_usd": 0.077977,
+      "total_tokens_in": 42294,
+      "total_tokens_out": 183,
+      "total": 60,
+      "pass_count": 53,
+      "fail_count": 7,
+      "error_count": 0,
+      "cohen_kappa": 0.5161
+    },
+    "release_gate": {
+      "decision": "BLOCK",
+      "passed": false,
+      "delta_avg_score": 0.0,
+      "delta_hit_rate3": 0.1,
+      "v2_agreement_rate": 0.95,
+      "v2_p95_latency_s": 0.0646,
+      "reasons": [
+        "avg_score delta +0.0000 < required +0.2 - FAIL",
+        "hit_rate@3 delta +0.1000 within tolerance - OK",
+        "agreement_rate 0.9500 >= 0.7 - OK",
+        "p95_latency 0.065s within 1.2x V1 - OK"
+      ]
+    },
+    "failure_clusters": {
+      "prompt_attack": [
+        "ADV-004",
+        "ADV-009"
+      ],
+      "hallucination": [],
+      "retrieval_miss": [
+        "CFG-003",
+        "CFG-006",
+        "MTR-003"
+      ],
+      "incomplete": [
+        "MTR-002",
+        "MTR-004"
+      ],
+      "tone_mismatch": []
+    }
+  }
+}
